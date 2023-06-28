@@ -1,12 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="preload" as="style"
+          href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"
+          media="print" onload="this.media='all'"/>
+    <noscript>
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+    </noscript>
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
 </head>
-<body>
-<div>
-    <p>asdsadasdasd</p>
+<body id="top">
+<header class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
+        <div class="container"><a class="link-dark navbar-brand site-title ps-lg-0" href="#"
+                                  style="font-family: 'MV Boli',serif">Welcome To My Portfolio!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li>
+                    <!--<li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>-->
+                    <!-- <li class="nav-item"><a class="nav-link" href="publishedGames.html">Published Games</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="page-content">
+    <div id="content">
+        <header>
+            <div class="section pt-4 px-3 px-lg-4" id="home">
+                <div class="cover bg-light">
+                    <div class="container px-3">
+                        <div class="row">
+                            <div class="col-lg-3 p-2"><img class="img-fluid" src="images/dev.gif" alt="hello"/></div>
+                            <div class="col-lg-6">
+                                <div class="mt-5" style="margin-left: 130px">
+                                    <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">Doğukan
+                                        Karabıyık</h1>
+                                    <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100"> Software
+                                        Engineer & Generalist Game Programmer</p>
+                                    <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
+                                        <nav role="navigation">
+                                            <ul class="nav justify-content-left">
+                                                <li class="nav-item"><a class="nav-link"
+                                                                        href="mailto:dokarabiyik2008@gmail.com"
+                                                                        target="_blank"
+                                                                        title="Gmail"><i
+                                                        class="bi-envelope-fill"></i><span
+                                                        class="menu-title sr-only">Gmail</span></a></li>
+                                                <li class="nav-item"><a class="nav-link"
+                                                                        href="https://github.com/Nosiferum"
+                                                                        target="_blank"
+                                                                        title="GitHub"><i
+                                                        class="fab fa-github"></i><span
+                                                        class="menu-title sr-only">GitHub</span></a></li>
+                                                <li class="nav-item"><a class="nav-link"
+                                                                        href="https://www.linkedin.com/in/dogukan-karabiyik-229657147/"
+                                                                        target="_blank"
+                                                                        title="LinkedIn"><i
+                                                        class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-nav" data-aos="fade-right" data-aos-delay="200">
+                                <a class="cv-button" href="images/Resume2023_3SE.pdf" download> DOWNLOAD SOFTWARE
+                                    ENGINEERING CV
+                                </a>
+                                <a class="cv-button" href="images/Resume2023_3GD.pdf" download> DOWNLOAD GAME DEV CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wave-bg"></div>
+                <div class="section pt-4 px-3 px-lg-4" id="about">
+                    <div class="container-narrow">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="h4 my-2">About Me</h2>
+                                <p>
+                                    I'm a passionate and dependable game developer who is capable of creating games form
+                                    scratch in Unity and Unreal Engine.
+                                    I am interested in writing easy to understand and reusable code that will make
+                                    people's lives easier.
+                                </p>
+                                <div class="row mt-3">
+                                    <div class="col-sm-2">
+                                        <div class="pb-1">Address:</div>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="pb-1 fw-bolder">Ankara, Turkey</div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="pb-1">Languages:</div>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="pb-1 fw-bolder">Turkish(Native), English(C1), German(B2),<br>Japanese(N3),
+                                            French(B1)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img
+                                    class="avatar img-thumbnail shadow" src="images/portrait.jpeg" width="350"
+                                    height="450"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section px-3 px-lg-4 pt-5" id="education">
+                    <div class="container-narrow">
+                        <div class="text-center mb-5">
+                            <h2 class="marker marker-center">Education</h2>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="pb-2 fa-2x">Izmir University of Economics</div>
+                            <div class="pb-2 fa-2x">Bachelor's Degree</div>
+                            <div class="pb-2 fa-1x fw-normal">Software Engineering</div>
+                            <div class="pb-3 fw-bolder">2017 - 2021</div>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="pb-3 fa-2x">Vilnius University</div>
+                            <div class="pb-2 fa-2x">Erasmus Programme</div>
+                            <div class="pb-2 fa-1x fw-normal">Software Engineering</div>
+                            <div class="pb-2 fw-bolder">2019 - 2020</div>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="pb-2 fa-2x">FH Aachen University</div>
+                            <div class="pb-2 fa-2x">Bachelor's Degree (Study Abroad)</div>
+                            <div class="pb-2 fa-1x fw-normal">Software Engineering</div>
+                            <div class="pb-3 fw-bolder">2016 - 2017</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section px-3 px-lg-4 pt-5" id="experience">
+                    <div class="text-center mb-5">
+                        <h2 class="marker marker-center">Experience</h2>
+                    </div>
+                    <div class="container-narrow">
+                        <div class="text-center mb-5">
+                            <div class="pb-1 fa-2x">Twenty Games</div>
+                            <div class="pb-2 fa-2x fw-lighter">Game Developer</div>
+                            <div class="pb-3 fw-bolder">May 2022 - October 2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section px-3 px-lg-4 pt-5" id="skills">
+                    <div class="container-narrow">
+                        <div class="text-center mb-5">
+                            <h2 class="marker marker-center">Skills</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
+                                    <div class="card-header px-2 py-2">
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <h3 class="h2 mb-1">Languages</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body px-2 py-2">
+                                        <h4 class="fw-normal">● C# </h4>
+                                        <h4 class="fw-normal">● C++ </h4>
+                                        <h4 class="fw-normal">● Java </h4>
+                                        <h4 class="fw-normal">● Kotlin </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card mb-3" data-aos="fade-left" data-aos-delay="200">
+                                    <div class="card-header px-2 py-2">
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <h3 class="h2 mb-1">Technologies</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body px-2 py-2">
+                                        <h4 class="fw-normal">● Unity</h4>
+                                        <h4 class="fw-normal">● .Net Framework </h4>
+                                        <h4 class="fw-normal">● Unreal Engine </h4>
+                                        <h4 class="fw-normal">● Native Android Development </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <footer class="pt-4 pb-4 text-center bg-light">
+        <div class="container">
+            <div class="my-3">
+                <div class="h4">Doğukan Karabıyık</div>
+                <p>Software Engineer / Game Developer</p>
+                <div class="social-nav">
+                    <nav role="navigation">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item"><a class="nav-link"
+                                                    href="mailto:dokarabiyik2008@gmail.com"
+                                                    target="_blank"
+                                                    title="Gmail"><i class="bi-envelope-fill"></i><span
+                                    class="menu-title sr-only">Gmail</span></a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                                    href="https://github.com/Nosiferum"
+                                                    target="_blank"
+                                                    title="GitHub"><i class="fab fa-github"></i><span
+                                    class="menu-title sr-only">GitHub</span></a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                                    href="https://www.linkedin.com/in/dogukan-karabiyik-229657147/"
+                                                    target="_blank"
+                                                    title="LinkedIn"><i
+                                    class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i
+            class="fas fa-angle-up fa-x"></i></span></a>
+    </div>
+    <script src="scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
+    <script src="scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
+    <script src="scripts/BigPicture.min.js?ver=1.2.0"></script>
+    <script src="scripts/purecounter.min.js?ver=1.2.0"></script>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/aos.min.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
 </div>
 </body>
 </html>
